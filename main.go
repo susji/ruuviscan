@@ -8,6 +8,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/susji/ruuvi/data"
 	"github.com/susji/ruuvi/data/rawv2"
 	"tinygo.org/x/bluetooth"
 )
@@ -40,7 +41,7 @@ func main() {
 					device.LocalName())
 			}
 			switch md.Data[0] {
-			case rawv2.VERSION_PLAIN, rawv2.VERSION_CUT:
+			case data.VERSION_RAWV2, data.VERSION_CUTRAWV2:
 				r2, err := rawv2.Parse(md.Data)
 				if err != nil {
 					fmt.Fprintln(os.Stderr, "Decoding Raw V2 packet failed:", err)
