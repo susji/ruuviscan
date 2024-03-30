@@ -1,0 +1,17 @@
+builds:
+- id: ruuviscan
+  binary: ruuviscan
+  env:
+    - CGO_ENABLED=0
+  targets:
+    - "linux_amd64"
+    - "linux_arm64"
+    - "linux_arm"
+
+checksum:
+  algorithm: sha256
+  name_template: "checksums.txt"
+  disable: false
+
+changelog:
+  sort: asc
