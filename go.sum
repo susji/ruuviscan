@@ -20,6 +20,8 @@ github.com/stretchr/testify v1.7.5 h1:s5PTfem8p8EbKQOctVV53k6jCJt3UX4IEJzwh+C324
 github.com/stretchr/testify v1.7.5/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
 github.com/susji/ruuvi v0.1.0 h1:YmQKFRbUTpCniNIkJMdIUR2KCXYb0B9CJvuMRDgiCtI=
 github.com/susji/ruuvi v0.1.0/go.mod h1:/IEm2wT6FuVy0lic94LizEbv9j+Kro4CUlUpOBBJmS0=
+github.com/susji/ruuvi v0.3.0 h1:fZdSXh4QzFAf17o5vKzTAn8Cz5j0RrC5rua81AxJx6s=
+github.com/susji/ruuvi v0.3.0/go.mod h1:/IEm2wT6FuVy0lic94LizEbv9j+Kro4CUlUpOBBJmS0=
 github.com/tinygo-org/cbgo v0.0.4 h1:3D76CRYbH03Rudi8sEgs/YO0x3JIMdyq8jlQtk/44fU=
 github.com/tinygo-org/cbgo v0.0.4/go.mod h1:7+HgWIHd4nbAz0ESjGlJ1/v9LDU1Ox8MGzP9mah/fLk=
 golang.org/x/sys v0.0.0-20190422165155-953cdadca894/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

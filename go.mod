@@ -3,7 +3,7 @@ module github.com/susji/ruuviscan
 go 1.22.1
 
 require (
-	github.com/susji/ruuvi v0.1.0
+	github.com/susji/ruuvi v0.3.0
 	tinygo.org/x/bluetooth v0.9.0
 )
 
