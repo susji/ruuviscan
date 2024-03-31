@@ -45,17 +45,17 @@ func main() {
 				r2, err := rawv2.Parse(md.Data)
 				if err != nil {
 					fmt.Fprintln(os.Stderr, "Decoding Raw V2 packet failed:", err)
-					return
+					continue
 				}
 				out, err := json.Marshal(&r2)
 				if err != nil {
 					fmt.Fprintln(os.Stderr, "Packet marshalling failed:", err)
-					return
+					continue
 				}
 				fmt.Println(string(out))
 			default:
 				fmt.Fprintf(os.Stderr, "v=%X\n", md.Data[0])
-				return
+				continue
 			}
 		}
 	})
