@@ -9,6 +9,11 @@ builds:
     - "linux_arm"
     - "windows_amd64"
     - "windows_arm64"
+  mod_timestamp: "{{ .CommitTimestamp }}"
+  flags:
+    - -trimpath
+  ldflags:
+    - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{ .CommitDate }}
 checksum:
   algorithm: sha256
   name_template: "checksums.txt"
